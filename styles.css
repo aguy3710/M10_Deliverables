@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #082B59; /* Bright blue background */
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #F2F2F2;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #F2F2F2;
+}
+
+a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: normal;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+a:hover {
+    color: #D98555; /* Peach hover color */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+button {
+    background-color: #D98555; /* Peach background */
+    color: #F2F2F2;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 40px; /* Creates space between the button and the text */
+}
+
+button:hover {
+    background-color: #082B59; /* Bright blue hover background */
+    color: #F2F2F2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #131D26; /* Navy background */
+    color: #F2F2F2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #D98555; /* Peach hover color */
+}
+
+footer .disclaimer {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #F2F2F2;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section.about {
+    background-color: #F2F2F2;
+}
+
+section.contact {
+    background-color: #D98555; /* Peach background */
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    font-size: 24px;
+    color: #F2F2F2;
+}
+
+.social-links a:hover {
+    color: #D98555; /* Peach hover color */
+}
+
+.container {
+    text-align: center;
+}
+
+figure {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 18px;
+    color: #D98555; /* Peach text */
+    margin-top: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
+/* Large screen layout */
+@media (min-width: 1024px) {
+    section {
+        padding: 60px 30px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    button {
+        padding: 14px 28px;
+    }
+}
